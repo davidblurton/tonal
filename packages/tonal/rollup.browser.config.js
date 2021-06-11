@@ -6,7 +6,7 @@ import filesize from "rollup-plugin-filesize";
 export default {
   input: "./dist/index.js",
   output: {
-    format: "iife",
+    format: "umd",
     file: "./browser/tonal.min.js",
     name: "Tonal",
     sourcemap: true
